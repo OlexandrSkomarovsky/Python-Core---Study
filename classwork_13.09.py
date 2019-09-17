@@ -81,14 +81,22 @@
 8.  Юзер вводить число з клавіатури, написати скріпт, який визначає 
 чи це число просте чи складне.
 '''
-i = int(input("Будь лака введіть будь-яке число: "))
-list_dil = list(range(i))
-list_dil.append(i)
-condition = False
-for n in list_dil:
- i % n == 0
-    if len(list_dil) == 1 :
-        print('Proste chyslo')
+# i = int(input("Будь лака введіть будь-яке число: "))
+# dilnyk = 0
+# condition = True
+# for dilnyk in range(1, i + 1):
+#     if not i % dilnyk == 0: 
+#         dilnyk +=1
+#         if dilnyk != i and i % dilnyk == 0:
+#             condition = False
+#             break
+#         else:
+#             continue
+# if condition == True:
+#      print('Proste chyslo')
+# else :
+#     print('Skladne chyslo')
+
 
 
 
