@@ -96,6 +96,17 @@
 #      print('Proste chyslo')
 # else :
 #     print('Skladne chyslo')
+#######################################################
+i = int(input("Будь лака введіть будь-яке число: "))
+rslt = True
+for dilnyk in range(2, i):
+    if i % dilnyk == 0:
+        rslt = False
+        break
+if rslt == True : 
+    print('Proste chyslo')
+else:
+    print('Skladne chyslo')
 
 
 
