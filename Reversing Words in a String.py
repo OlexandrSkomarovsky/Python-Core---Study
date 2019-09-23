@@ -1,3 +1,2 @@
-def reverse(st):
-    x = st.split()   
-    return(' '.join(x[::-1]))
+body = 'Fox'
+print(len(range(body)))
