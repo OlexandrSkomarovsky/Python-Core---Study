@@ -37,13 +37,12 @@
 Якщо ні, то виведіть повідомлення про помилку. 
 (використайте цикл while)
 '''
-log = {'login': 'First'}
-login = 'First'
-while login in log == 'First':
-    i = input('Pleas enter login:')
-    if i == 'First':
-        print('Welcome')
-    else:
-        print('Mistake')
-    continue
+# while True:
+#     login = input('Pleas enter login: ')
+#     if not login == 'First':
+#         print('Mistake')
+#     else:
+#         print('Welcome')
+#         break
+        
 
