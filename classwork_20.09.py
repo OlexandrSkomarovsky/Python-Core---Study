@@ -26,6 +26,8 @@ maxim(99,9)
 4.  Написати програму, яка обчислює площу прямокутника, трикутника та кола (написати три функції 
 для обчислення площі, і викликати їх в головній програмі в залежності від вибору користувача)
 '''
+"""This program for counting area of rectangual, triangual and circul. For rect input 1, for triangual - 2, for circul - 3."""
+shape = int(input())
 # def s_rect(a,b):
 #     return a*b
 # def s_triangl(a,b,c):
